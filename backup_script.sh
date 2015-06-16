@@ -12,10 +12,10 @@
 #  mkdir ~/backups
 
 USR="root"      # mysql user that has access to the database, root is fine
-PSS="sovello"   # mysql password for the user
+PSS="mysql"   # mysql password for the user
 HST="localhost" # optional, not used
-DATABASE="copy_vmmc" # the name of the database that the script should backup
-SITENAME="hola"     # the name of the site, to distinguish from the other sites
+DATABASE="vmmc_4_1" # the name of the database that the script should backup
+SITENAME="NewSites"     # the name of the site, to distinguish from the other sites
 
 # make this file executable
 #  sudo chmod +x backup_script.sh
